@@ -7,13 +7,15 @@
 
 /* common */
 * {
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 .btn {
     background-color: #0061ff;
     color: white;
-    padding: 5px 12px;
+    padding: 6px 14px;
 }
 
 /* header */
@@ -22,12 +24,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 13px;
-    font-weight: 600;
     position: fixed;
     left: 0;
     top: 0;
     right: 0;
+    background-color: white;
 }
 
 .logo-info, .login {
@@ -65,6 +66,38 @@ header a {
 }
 
 h1 {
-    font-size: 67px;
+    font-size: 70px;
     padding-top: 80px;
+    padding-bottom: 40px;
+    font-weight: 700;
+}
+
+.box {
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.jumbotron {
+    display: flex;
+}
+
+.free-trial {
+    width: 30%;
+}
+
+.box {
+    width: 70%;
+}
+
+.free-trial p {
+    margin-bottom: 40px;
+}
+
+.free-trial div {
+    padding-bottom: 15px;
+}
+
+.arrow i {
+    font-size: 25px;
+    margin-top: 20px;
 }
