@@ -72,21 +72,17 @@ h1 {
     font-weight: 700;
 }
 
-.box {
-    background-color: pink;
-    border: 1px solid black;
-}
-
 .jumbotron {
     display: flex;
+    justify-content: space-between;
 }
 
 .free-trial {
-    width: 30%;
+    width: 27%;
 }
 
 .box {
-    width: 70%;
+    width: 65%;
 }
 
 .free-trial p {
@@ -100,4 +96,8 @@ h1 {
 .arrow i {
     font-size: 25px;
     margin-top: 20px;
+}
+
+.box img {
+    width: 100%;
 }
