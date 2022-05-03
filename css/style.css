@@ -1,0 +1,50 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+* {
+    font-family: 'Open Sans', sans-serif;;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.logo-info, .login {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-info img {
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+header a {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btn {
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 12px;
+}
