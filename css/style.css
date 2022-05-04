@@ -309,7 +309,7 @@ li {
 .business-col {
     width: calc(90% / 3);
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .business-col img {
@@ -322,4 +322,35 @@ li {
 
 .business-col span {
     text-decoration: underline;
+}
+
+/* teams */
+.team {
+    width: 50%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+/* colored-box */
+.colored-box {
+    margin-top: 40px;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.box-left, .box-center, .box-right {
+    border: 1px solid black;
+    width: calc(100% / 3);
+}
+
+.box-left, .box-right {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.minibox {
+    width: 50%;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    height: 15vw;
 }
