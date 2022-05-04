@@ -163,6 +163,7 @@ h1 {
     width: calc( 90% / 3 );
     border: 1px solid lightgray;
     height: 750px;
+    margin-bottom: 30px;
 }
 
 .top-col {
@@ -234,3 +235,36 @@ li {
     color: #0061ff;
     margin-right: 2px;
 }
+
+/* enterprise-col */
+
+.enterprise-col {
+    border: 1px solid lightgray;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.enterprise-container {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.enterprise-text {
+    width: 70%;
+}
+
+.enterprise-contact {
+    width: 30%;
+}
+
+.enterprise-text h3 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.enterprise-text h4 {
+    padding-bottom: 15px;
+}
+
+
