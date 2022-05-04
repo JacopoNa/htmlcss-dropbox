@@ -241,7 +241,7 @@ li {
 .enterprise-col {
     border: 1px solid lightgray;
     height: 200px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 .enterprise-container {
@@ -267,4 +267,33 @@ li {
     padding-bottom: 15px;
 }
 
+/* meeting */
 
+.meeting-box, .meeting-text {
+    width: 46%;
+}
+
+.meeting-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.meeting-box img {
+    width: 100%;
+}
+
+.meeting-text h3 {
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.btn-white {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.meeting-text div {
+    margin-bottom: 15px;
+}
