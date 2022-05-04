@@ -44,6 +44,7 @@ header {
     top: 0;
     right: 0;
     background-color: white;
+    z-index: 1;
 }
 
 .logo-info, .login {
@@ -415,4 +416,31 @@ li {
 
 .clear {
     background-color: #ffd830;
+}
+
+/* your-agency */
+.big-colored {
+    background-color: #b4d0e7;
+    margin-bottom: 50px;
+    height: 300px;;
+}
+
+.big-colored .small-container {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.agency-text {
+    width: 40%;
+}
+
+.agency-trial div{
+    background-color: white;
+    padding: 5px 35px;
+}
+
+.agency-text h2 {
+    color: #620a2d;
 }
