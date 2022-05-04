@@ -335,11 +335,9 @@ li {
 .colored-box {
     margin-top: 40px;
     display: flex;
-    background-color: aliceblue;
 }
 
 .box-left, .box-center, .box-right {
-    border: 1px solid black;
     width: calc(100% / 3);
 }
 
@@ -350,7 +348,71 @@ li {
 
 .minibox {
     width: 50%;
-    background-color: antiquewhite;
-    border: 1px solid black;
     height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colored-box img{
+    width: 130px;
+}
+
+.designit {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.designit img {
+    margin-top: 50px;
+}
+
+.designit line {
+    margin-top: 25px;
+}
+
+.designit p {
+    margin-top: 45px;
+    margin-bottom: 80px;
+}
+
+.minibox img {
+    filter: invert(100%);
+}
+
+.box-center {
+    background-color: #f5f5f5;
+}
+
+.wipro {
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+}
+
+.asu {
+    background-color: #61082b;
+}
+
+.uf {
+    background-color: #0093ce;
+}
+
+.topps {
+    background-color: #ff1c1c;
+}
+
+.bicycle {
+    background-color: #d5001f;
+}
+
+.corp {
+    background-color: #b4d0e7;
+}
+
+.lonely {
+    background-color: #0d2481;
+}
+
+.clear {
+    background-color: #ffd830;
 }
