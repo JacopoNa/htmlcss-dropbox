@@ -508,3 +508,7 @@ ul h4 {
 .language i {
     vertical-align: middle;
 }
+
+.bottom-list ul li a {
+    font-size: 12px;
+}
