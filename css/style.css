@@ -485,7 +485,7 @@ footer {
     display: flex;
 }
 
-ul {
+.bottom-list ul {
     padding-top: 80px;
     padding-right: 115px;
     padding-bottom: 40px;
