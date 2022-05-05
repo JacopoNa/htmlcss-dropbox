@@ -444,3 +444,67 @@ li {
 .agency-text h2 {
     color: #620a2d;
 }
+
+/* questions */
+
+.questions {
+    margin-bottom: 80px;
+}
+
+.questions h2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.quest-col {
+    border-top: 1px solid lightgray;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.questions .small-container:last-child {
+    border-bottom: 1px solid lightgray;
+}
+
+.quest-element i {
+    padding-right: 25px;
+}
+
+.quest-text {
+    font-weight: bold;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+}
+
+.bottom-list {
+    display: flex;
+}
+
+ul {
+    padding-top: 80px;
+    padding-right: 115px;
+    padding-bottom: 40px;
+}
+
+ul h4 {
+    padding-bottom: 15px;
+}
+
+.bottom-line {
+    width: 8%;
+    padding-bottom: 30px;
+}
+
+.language {
+    color: lightgray;
+    padding-bottom: 40px;
+}
+
+.language i {
+    vertical-align: middle;
+}
