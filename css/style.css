@@ -52,6 +52,10 @@ header {
     align-items: center;
 }
 
+.info ul, .login ul {
+    display: flex;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -163,7 +167,6 @@ h1 {
 .col {
     width: calc( 90% / 3 );
     border: 1px solid lightgray;
-    height: 750px;
     margin-bottom: 30px;
 }
 
@@ -180,6 +183,7 @@ h1 {
 .col-container {
     width: 84%;
     margin: 0 auto;
+    margin-bottom: 70px;
 }
 
 .col-container h3 {
@@ -201,7 +205,7 @@ ul {
     list-style-type: none;
 }
 
-li {
+.col li {
     font-size: 12px;
     padding-bottom: 15px;
 }
@@ -489,6 +493,10 @@ footer {
     padding-top: 80px;
     padding-right: 115px;
     padding-bottom: 40px;
+}
+
+.bottom-list li {
+    padding-bottom: 15px;
 }
 
 ul h4 {
